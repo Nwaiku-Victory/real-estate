@@ -1,0 +1,19 @@
+@media(orientation: portrait) {
+       .port-none{ display: none; }
+       .port-flex{ display: flex; }
+       .port-block{ display: block; }
+       .port-sp-ev{ justify-content: space-evenly; }
+       .port-scale{ width: 150px; }
+       .port-w-full { width: 100%; }
+       .port-w-screen { width: 100vw; }
+       .port-h-full { height: 100%; }
+       .port-h-screen { height: 100vh; }
+       .port-p-0 { padding: 0; }
+       .port-pt-0 { padding-top: 0; }
+       .port-pr-0 { padding-right: 0; }
+       .port-pb-0 { padding-bottom: 0; }
+       .port-pl-0 { padding-left: 0; }
+       .port-col { flex-direction: column; }
+       .port-row { flex-direction: row; }
+       .port-fnt-17px { font-size: 17px; }
+}

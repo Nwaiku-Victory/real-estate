@@ -1,0 +1,14 @@
+.obj-fit-contain { object-fit: contain; }
+.obj-fit-cover { object-fit: cover; }
+.obj-fit-fill { object-fit: fill; }
+.obj-fit-none { object-fit: none; }
+.obj-fit-scale-down { object-fit: scale-down; }
+
+.obj-pos-bottom { object-position: bottom; }
+.obj-pos-center { object-position: center; }
+.obj-pos-inherit { object-position: inherit; }
+.obj-pos-initial { object-position: initial; }
+.obj-pos-left { object-position: left; }
+.obj-pos-right { object-position: right; }
+.obj-pos-top { object-position: top; }
+.obj-pos-unset { object-position: unset; }
