@@ -3,8 +3,8 @@ import { docs } from "./modules/fncs.js";
 
 export const config = {
     title: "You Tube",
-    icon: "./img/youtube.png",
-    css: ['./app.css'],
+    icon: "img/youtube.png",
+    css: ['app.css'],
 }
 
 document.body.innerHTML = distribute.codes;
@@ -15,5 +15,6 @@ distribute.scripts.forEach(ds => {
     if(ds.text !== '') scs.textContent = ds.text;
     document.body.appendChild(scs);
 })
+
 
 docs();
