@@ -1,0 +1,17 @@
+set seeAll = "px-30px py-10px bor-1px shad-0-0-2-darkgrey borr-30px fnt-w-bolder";
+
+<div class="ff-arial w-full h-full p-15px flex flex-row gap-15 bg-black cl-white">
+    includein "../side-menu.sil";
+    <div class="flex-1 h-full borr-20px flex flex-col bright">
+        <div class="w-full py-15px px-20px flex jc-sp-ev ai-center wrap gap-10">
+            includein "./board.sil";
+            <div class="w-400-full py-45px px-25px borr-15px flex flex-col gap-40 bright-1">
+                <div class="w-full fnt-w-bolder fnt-s-25px">Properties</div>
+                <div class="w-full flex flex-col gap-10">
+                    <div class="w-full flex jc-sp-bt ai-center fnt-w-bolder"> <p>Users</p> <p>30%</p> </div>
+                    <div class="w-full borr-10px bg-lightgrey"> <p class="w-30 h-7px bg-green borr-10px"></p> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
