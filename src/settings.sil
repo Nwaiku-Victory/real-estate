@@ -1,8 +1,0 @@
-<div class="ff-arial w-full h-full p-15px flex flex-row gap-15 bg-black cl-white">
-    includein "side-menu.sil";
-    <div class="flex-1 h-full borr-20px flex flex-col bright">
-        <div class="w-full">
-            <div class="w-700-full p-20px bright-3"></div>
-        </div>
-    </div>
-</div>
