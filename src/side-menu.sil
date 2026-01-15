@@ -1,0 +1,51 @@
+<menu class="w-250px h-full px-15px flex flex-col gap-15 ph-tab-none">
+    <div class="w-full flex-1 flex flex-col gap-5">
+        <ListIcon id="homeBtn" to="home/home.sil" icon="icn/home.png" class="w-full py-20px px-35px borr-10px flex ai-center gap-40 cl-white fnt-w-bolder fnt-s-17px hover-blue hover-cl-white" text="Home">
+        <ListIcon id="dashboardBtn" to="dash/dashboard.sil" icon="icn/apps.png" class="w-full py-20px px-35px borr-10px flex ai-center gap-40 cl-white fnt-w-bolder fnt-s-17px hover-blue hover-cl-white" text="Dashboard">
+        <ListIcon id="analyticsBtn" to="analist/analytics.sil" icon="icn/analysis.png" class="w-full py-20px px-35px borr-10px flex ai-center gap-40 cl-white fnt-w-bolder fnt-s-17px hover-blue hover-cl-white" text="Analytics">
+        <ListIcon id="reportsBtn" to="reports.sil" icon="icn/wrong.png" class="w-full py-20px px-35px borr-10px flex ai-center gap-40 cl-white fnt-w-bolder fnt-s-17px hover-blue hover-cl-white" text="Reports">
+        <ListIcon id="favouritesBtn" to="favourites.sil" icon="icn/star.png" class="w-full py-20px px-35px borr-10px flex ai-center gap-40 cl-white fnt-w-bolder fnt-s-17px hover-blue hover-cl-white" text="Favourites">
+        <ListIcon id="notificationBtn" to="notify/notification.sil" icon="icn/bell.png" class="w-full py-20px px-35px borr-10px flex ai-center gap-40 cl-white fnt-w-bolder fnt-s-17px hover-blue hover-cl-white" text="Notification">
+        <ListIcon id="settingsBtn" to="settings.sil" icon="icn/setting.png" class="w-full py-20px px-35px borr-10px flex ai-center gap-40 cl-white fnt-w-bolder fnt-s-17px hover-blue hover-cl-white" text="Settings">
+    </div>
+    <ListIcon id="userBtn" to="user.sil" icon="icn/user.png" class="w-full py-20px px-35px borr-10px flex ai-center gap-40 cl-white fnt-w-bolder fnt-s-17px hover-blue hover-cl-white" text="User">
+</menu>
+
+@script{
+    var param = new URLSearchParams(window.location.search);
+    var pages = param.get('page') || '';
+    switch(pages) {
+        case 'home/home.sil':
+            document.getElementById("homeBtn").style.background = "blue";
+            document.getElementById("homeBtn").style.color = "white";
+            break;
+        case 'analist/analytics.sil':
+            document.getElementById("analyticsBtn").style.background = "blue";
+            document.getElementById("analyticsBtn").style.color = "white";
+            break;
+        case 'reports.sil':
+            document.getElementById("reportsBtn").style.background = "blue";
+            document.getElementById("reportsBtn").style.color = "white";
+            break;
+        case 'dash/dashboard.sil':
+            document.getElementById("dashboardBtn").style.background = "blue";
+            document.getElementById("dashboardBtn").style.color = "white";
+            break;
+        case 'favourites.sil':
+            document.getElementById("favouritesBtn").style.background = "blue";
+            document.getElementById("favouritesBtn").style.color = "white";
+            break;
+        case 'notification.sil':
+            document.getElementById("notificationBtn").style.background = "blue";
+            document.getElementById("notificationBtn").style.color = "white";
+            break;
+        case 'settings.sil':
+            document.getElementById("settingsBtn").style.background = "blue";
+            document.getElementById("settingsBtn").style.color = "white";
+            break;
+        case 'user.sil':
+            document.getElementById("userBtn").style.background = "blue";
+            document.getElementById("userBtn").style.color = "white";
+            break;
+    }
+}script
