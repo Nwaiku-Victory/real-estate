@@ -1,0 +1,53 @@
+<div class="w-full h-full ff-arial p-10px flex jc-sp-ev ai-center wrap gap-5 bg-black cl-white">
+    <div class="w-500-full h-full p-15px flex flex-col gap-20">
+        <div class="w-full p-20px borr-20px bright-5 flex jc-sp-bt ai-center">
+           <div class="basis-30 flex flex-col ta-center cl-white">
+                <h2>370k</h2>
+                <p>views</p>
+           </div>
+           <div class="basis-30 flex flex-col ta-center cl-white">
+                <h2>370k</h2>
+                <p>views</p>
+           </div>
+           <div class="basis-30 flex flex-col ta-center cl-white">
+                <h2>370k</h2>
+                <p>views</p>
+           </div>
+        </div>
+        <div class="props bright-5">
+            <div class="imageContainer">
+                <img src="img/sunset.jpg">
+                <div class="flex flex-row gap-10><img src="icn/eyeo.png">350</div>
+            </div>
+            <div class="details cl-white">
+                <h3>Real Estate ybdvuof usvudj fuofusjkfios  fisfis r riof fsuorfiosrs fiosi</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti repellat eaque, tempore explicabo molestiae, quae sed reprehenderit suscipit rerum sapiente quasi fuga a reiciendis veritatis beatae cupiditate dolorum. Libero, totam!</p>
+            </div>
+            <div class="amount">
+                <p>$140k</p>
+                <img src="icn/loved.png">
+            </div>
+        </div>
+    </div>
+    <div class="flex-1 h-full borr-20px flex flex-col bright flow-scroll">
+        <div class="w-full px-20px py-10px flex jc-sp-ev ai-center">
+            <div class="w-700-full flex jc-sp-bt ai-center bright-3 py-10px px-15px borr-20px">
+                <img src="icn/search.png" class="h-20px">
+                <input type="text" placeholder="Search" class="flex-1 p-10px bor-none bg-none outline-none">
+            </div>
+        </div>
+        <div class="w-full p-10px flex jc-sp-bt ai-center">
+            <div class="flex gap-20 ai-center">
+                <div class="flex ai-center py-10px px-20px gap-10 brighter borr-20px">Popular <img src="icn/down.png" class="h-20px"> </div>
+                <img src="icn/vol set.png" class="h-25px">
+            </div>
+            <div class="flex gap-20 ai-center">
+                <img src="icn/apps.png" class="h-25px">
+                <img src="icn/comment.png" class="h-25px">
+            </div>
+        </div>
+        <div class="w-full grid-300 flow-hidden flowy-scroll">
+            includein "./posts.sil";
+        </div>
+    </div>
+</div>

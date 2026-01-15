@@ -1,0 +1,35 @@
+<div class="ff-arial w-full h-full p-15px flex flex-row gap-15 bg-black cl-white">
+    includein "side-menu.sil";
+    <div class="flex-1 h-full borr-20px flex flex-col bright flow-scroll">
+        <div class="w-full px-20px py-10px flex jc-sp-ev ai-center">
+            <div class="w-700-full flex jc-sp-bt ai-center bright-3 py-10px px-15px borr-20px">
+                <img src="icn/search.png" class="h-20px">
+                <input type="text" placeholder="Search" class="flex-1 p-10px bor-none bg-none outline-none">
+            </div>
+        </div>
+        // <div class="w-full p-10px flex flex-row gap-15 flow-hidden flowx-scroll">
+        //     <p class="px-25px py-10px borr-10px bright-10 text-capital">All</p>
+        //     <p class="px-25px py-10px borr-10px bright-10 text-capital">rental</p>
+        //     <p class="px-25px py-10px borr-10px bright-10 text-capital">ownership</p>
+        //     <p class="px-25px py-10px borr-10px bright-10 text-capital">lease</p>
+        //     <p class="px-25px py-10px borr-10px bright-10 text-capital">All</p>
+        //     <p class="px-25px py-10px borr-10px bright-10 text-capital">All</p>
+        //     <p class="px-25px py-10px borr-10px bright-10 text-capital">All</p>
+        //     <p class="px-25px py-10px borr-10px bright-10 text-capital">All</p>
+        //     <p class="px-25px py-10px borr-10px bright-10 text-capital">All</p>
+        // </div>
+        <div class="w-full p-10px flex jc-sp-bt ai-center">
+            <div class="flex gap-20 ai-center">
+                <div class="flex ai-center py-10px px-20px gap-10 brighter borr-20px">Popular <img src="icn/down.png" class="h-20px"> </div>
+                <img src="icn/vol set.png" class="h-25px">
+            </div>
+            <div class="flex gap-20 ai-center">
+                <img src="icn/apps.png" class="h-25px">
+                <img src="icn/comment.png" class="h-25px">
+            </div>
+        </div>
+        <div class="w-full grid-300 flow-hidden flowy-scroll">
+            includein "./posts.sil";
+        </div>
+    </div>
+</div>
