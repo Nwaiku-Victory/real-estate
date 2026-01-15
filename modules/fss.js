@@ -5,12 +5,12 @@ export async function fss(path) {
     try {
         let cont;
         if(fileStart == '.') {
-            cont = await fetch(`real-estate/src/${page.split('/')[0]+'/' || ''}${path.replace('./','')}`);
+            cont = await fetch(`https://nwaiku-victory.github.io/real-estate/src/${page.split('/')[0]+'/' || ''}${path.replace('./','')}`);
         } else if(fileStart == '..') {
             let pageLen = page.split('/');
-            cont = await fetch(`real-estate/src/${page.split('/')[pageLen.length-3] || ''}/${path.replace('../','')}`);
+            cont = await fetch(`https://nwaiku-victory.github.io/real-estate/src/${page.split('/')[pageLen.length-3] || ''}/${path.replace('../','')}`);
         } else {
-            cont = await fetch(`real-estate/src/${path}`);
+            cont = await fetch(`https://nwaiku-victory.github.io/real-estate/src/${path}`);
         }
         let txt;
         if(!cont.ok) {
@@ -27,5 +27,6 @@ export async function fss(path) {
     }
 
 }
+
 
 
