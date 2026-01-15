@@ -10,7 +10,7 @@ import { tgs } from "./tags.js";
 import { transform } from "./translate.js";
 
 let params = new URLSearchParams(window.location.search);
-let page = params.get("page") || "index.sil";
+let page = params.get("page") || "../src/index.sil";
 
 var raw = await fss(page);
 var mds = await modes(raw.text);
@@ -27,5 +27,6 @@ let distribute = {
     codes: final,
     scripts: allscripts
 }
+
 
 export default distribute;
